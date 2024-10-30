@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Merger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Merge Images</h1>
+    <input type="file" id="imageUpload" multiple accept="image/*">
+    <button onclick="mergeImages()">Merge Photos</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <div class="download-link-container" id="downloadLinkContainer"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
